@@ -1,0 +1,182 @@
+.left_img {
+    padding-right: 3%;
+  }
+
+.right_img {
+    padding-left: 3%;
+}
+
+.scale{
+    width: 35%;
+    height: auto;
+}
+
+.resize{
+    max-width: 25%;
+    height: auto;
+    padding-right: 8%
+}
+.ol {
+    text-decoration: overline;
+  }
+  
+.lt {
+    text-decoration: line-through;
+  }
+  
+.ul {
+    text-decoration: underline;
+  }
+  
+.ulol {
+    text-decoration: underline overline;
+  }
+
+.no {
+    font-style: normal;
+  }
+  
+.ita {
+    font-style: italic;
+  }
+  
+.obl {
+    font-style: oblique;
+  }
+
+  .proj_left {
+    border: .5px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 0.5%;
+    width: 35%;
+    /* width:190px; */
+    height: auto;
+    opacity: 0.3;
+    filter: alpha(opacity=100);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background: url(http://www.corelangs.com/css/box/img/duck.png) no-repeat; */
+  }
+  
+  .proj_left:hover {
+    opacity: 1;
+    filter: alpha(opacity=30)
+  }
+    
+
+    
+  .proj_right {
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 0.5%;
+    width: 35%;
+    /* width:190px; */
+    margin-bottom:3% ;
+    height: auto;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background: url(http://www.corelangs.com/css/box/img/duck.png) no-repeat; */
+  }
+    
+  .proj_right:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30)
+    }
+
+  .buttonsp {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 10px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.column{
+  width: 33%;
+}
+.columnz{
+  width: 50%;
+}
+
+.strongtext {
+  font-weight: bold;
+  color: black;
+}
+
+.my-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.unbold{
+  font-weight: lighter;
+  line-height: 1.8;
+}
+
+.lhe {
+  line-height: 1.4;
+}
+
+.mrgsty_l{
+  margin-left: 39%;
+}
+
+.mrgsty_r{
+  margin-right: 39%;
+}
+
+.lheproj{
+  line-height: 1.9;
+}
+
+.tagtech {
+  background-color: rgb(245, 245, 245);
+  text-decoration: black;
+  font-weight: bold;
+  margin: 4% 0 2% 0;
+  padding-left: 01em;
+  }
+
+   
+  .workex:hover {
+    opacity: 1;
+    filter: alpha(opacity=30)
+  }
+
+  .teamtech {
+    background-color: rgb(255, 255, 255);
+    text-decoration: black;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    padding-left: 01em;
+  }
+
+  a {
+      color: rgb(255, 0, 0);
+    }
+
+    .subtech {
+      background-color: rgb(245, 245, 245);
+      text-decoration: rgb(0, 0, 0);
+      font-weight: bold;
+      margin: 0 0 0 0;
+      padding-left: 0.5em;
+    }
+    .subtech:hover {
+      opacity: 0.2;
+      filter: alpha(opacity=30)
+    }
+    .lheedu{
+      line-height: 3;
+    }
