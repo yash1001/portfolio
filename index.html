@@ -480,12 +480,13 @@
 			$(document).ready(function(){
 
 				$(window).on("resize", function(){
-					var temp = $(window).width();
-					if(temp <= 736){
+					var wi = $(window).width();
+					var hi = $(window).height();
+					if(wi<hi){
 						$("#yash1").removeClass("col-4");
 						$("#yash2").removeClass("col-8");
 					}
-					else if(temp >736){
+					else if(wi>hi){
 						$("#yash1").addClass("col-4");
 						$("#yash2").addClass("col-8");
 					}
