@@ -164,6 +164,7 @@
 
   a {
       color: rgb(255, 0, 0);
+      text-decoration: none;
     }
 
     .subtech {
@@ -179,4 +180,35 @@
     }
     .lheedu{
       line-height: 3;
+    }
+
+    .navbar-toggler{
+      width: 50px !important;
+      height:30px !important;
+    }
+
+    .navbar{
+      background-color: #292929;
+    }
+
+    .navbar-brand{
+      color: white;
+    }
+
+    .nav-link{
+      color: white;
+    }
+    .nav-item{
+      padding: 0;
+    }
+    .nav-item:hover{
+      background-color: rgb(87, 87, 87);
+      opacity: 0.4;
+      border-radius: 7px;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+      background-size: cover;
     }

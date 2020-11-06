@@ -5,19 +5,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
 <head>
 	<title>Yash Chaturvedi</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/mystylesheet.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/navbarmobil.css">
 </head>
 
-<body class="is-preload">
+<body style="padding: 0%;" class="is-preload">
 
 	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
@@ -31,34 +33,69 @@
 		<a href="#about">About Me</a>
 		<a href="#skills">Skills</a>
 		<a href="#contact">Contact Me</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<a class="icon">
 			<i class="fa fa-bars"></i>
 		</a>
 	</div> -->
 
 	<!-- Nav -->
-	<nav id="nav">
+	<!-- <nav id="nav">
 		<ul class="container">
-			<!-- <li><a href="#top">Intro</a></li> -->
+			<li><a href="#top">Intro</a></li> 
 			<li><a href="index.html">YASH CHATURVEDI</a></li>
 			<li><a href="#about">About Me</a></li>
 			<li><a href="#skills">Skills</a></li>
 			<li><a href="workex.html">Work Experience</a></li>
-			<!-- <li><a href="#academic">Academic Experience</a></li> -->
+			<li><a href="#academic">Academic Experience</a></li> 
 			<li><a href="projects.html">Projects</a></li>
-			<!-- <li><a href="#education">Education</a></li> -->
+			<li><a href="#education">Education</a></li> 
 			<li><a href="#contact">Contact Me</a></li>
 		</ul>
+	</nav> -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Yash Chaturvedi</a>
+		<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+		<span style="border: none;" class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation"></span>
+		<!-- </button> -->
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#top">Intro <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#top">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#skills">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="workex.html">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Education</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact Me</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 
 	<!-- Home -->
-	<article id="" class="wrapper style1 top">
+	<article id="top" class="wrapper style1">
 		<div class="container">
 			<div class="row">
-				<div class="col-4 col-5-large col-12-medium">
+				<div id="yash1" class="col-4 col-12-medium ">
 					<span class="image fit"><img src="images/bg.jpg" alt="" /></span>
 				</div>
-				<div class="col-8 col-7-large col-12-medium" ALIGN="justify">
+				<div id="yash2" class="col-8 col-12-medium">
 					<header>
 						<h1>Hi. I'm <strong>Yash</strong>.</h1>
 						<h2 class="lhe">I intend to find radical solutions to world's BIG and small problems.</h2>
@@ -66,48 +103,88 @@
 
 					<p>I am a recent graduate from <strong> North Carolina State University</strong> with a Master's
 						degree in <strong>
-							Manufacturing Systems Engineering </strong> and a minor in Industrial Engineering. I specialize in <strong>Product Design and Manufacturing.</strong>
+							Manufacturing Systems Engineering </strong> and a minor in Industrial Engineering. I
+						specialize in <strong>Product Design and Manufacturing.</strong>
 					</p>
-					<p>You can know more about me <a href="#about">here</a> and get in touch with me on <a
-							href="https://www.linkedin.com/in/chaturvedi-yash/" target="_blank">Linkedin</a> or through
+					<p>You can know more about me <a class="ul" href="#about">here</a> and get in touch with me on <a
+							href="https://www.linkedin.com/in/chaturvedi-yash/" target="_blank">Linkedin</a> or
+						through
 						<a href="mailto:chaturvedi@gmail.com" target="_blank">mail</a>.</p>
 					<a href="https://www.linkedin.com/in/chaturvedi-yash/" target="_blank" class="button small scrolly">
 						LinkedIn </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 					<a href="mailto:chaturvedi@gmail.com" target="_blank" class="button small scrolly"> Mail</a>
-					<!-- <a href="https://www.linkedin.com/in/chaturvedi-yash/" target = "_blank"><span class="icon featured fa-envelope-square"></span></a> -->
-					<!-- <h2> </h2>
-					<a href="#work" class="button large scrolly">Learn about what I do</a> -->
+
+
+
 				</div>
 			</div>
 		</div>
 	</article>
+<!-- 
+	<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/bg.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Yash</strong>.</h1>
+								<h2 class="lhe">I intend to find radical solutions to world's BIG and small problems.</h2>
+							</header>
+		
+							<p>I am a recent graduate from <strong> North Carolina State University</strong> with a Master's
+								degree in <strong>
+									Manufacturing Systems Engineering </strong> and a minor in Industrial Engineering. I
+								specialize in <strong>Product Design and Manufacturing.</strong>
+							</p>
+							<p>You can know more about me <a class="ul" href="#about">here</a> and get in touch with me on <a
+									href="https://www.linkedin.com/in/chaturvedi-yash/" target="_blank">Linkedin</a> or
+								through
+								<a href="mailto:chaturvedi@gmail.com" target="_blank">mail</a>.</p>
+							<a href="#work" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+	</article> -->
+
 
 	<!-- About -->
-	<article id="about" class="wrapper style1">
+	<article id="about" class="wrapper style2">
 		<div class="container">
 			<div class="row">
 
-				<div class="col-12 col-12-large col-12-medium" ALIGN="justify">
+				<div class="col-12 col-12-large col-12-medium">
 					<header>
 						<h2 ALIGN="center">More about Me.</h2>
 					</header>
-					<h4 class="unbold"> Hi, I am an inquisitive person who is enthusiastic and motivated to learn new
-						things. I want to apply my knowledge to create consumer products that are <strong>innovative,
+					<h4 class="unbold" ALIGN="justify"> Hi, I am an inquisitive person who is enthusiastic and motivated to learn new
+						things constantly with a good sense of accountability and teamwork. I see myself as a
+						<strong>go-getter</strong> who wants to apply his knowledge
+						to create products that are <strong>innovative,
 							robust, and easy to use</strong>. I have previously worked at a research and development
 						corporation
-						specializing in medical devices as a systems engineer. Be it designing, managing, and integrating
+						with medical devices as a systems engineer. Be it designing, managing, and integrating
 						or even improving complex systems over their life cycle, I can handle these tasks quite
 						effectively. I specialize in <strong>Product Design, Advanced Manufacturing, System Integration,
 							Material Science, Statistics, Biomedical Product Development, Global Regulations for Medical
-							Devices and Biologics, and Robotics</strong>. My long-term goal is to
+							Devices and Biologics, and Robotics</strong>. <strong>I can deliver </strong>My long-term
+						goal is to
 						create an impact in society by enhancing the usability of <strong>consumer electronics,
-							precision machines, modes of transport, and medical products or in fact, any kind of industry</strong>.</h4>
+							precision machines, modes of transport, and medical products or in fact, any kind of
+							industry</strong>.</h4>
 					<!-- <a href="#work" class="button large scrolly">Learn about what I do</a> -->
 					<br></br>
 					<header>
 						<h2 ALIGN="center">In my free time.</h2>
 					</header>
-					<h4 class="unbold"> I love to meet new people and</h4>
+					<h4 ALIGN="justify"> I love to meet new people and explore new places. Usually, I play sports like
+						badminton, basketball, and cricket or sometimes take a break to go on leisure walks but I am
+						willing to try any fun activity during my free time. I also like to play video games, and read
+						and discuss world history, geography, comics, and mangas. I have a keen interest in adventure
+						sports (non-vehicle). So during holidays if you I will always be ready for a hiking or kayaking, or any other adventure
+						trip. 
+					</h4>
 				</div>
 			</div>
 		</div>
@@ -257,8 +334,9 @@
 					<br> </br>
 					<br>
 
-					<a href="https://www.imsei.ncsu.edu/" target="_blank"><img class="right_img scale proj_right"
-							src="images/hunt-snow-3840x2160.jpg" ALIGN="right" alt="" /></a><br>
+					<a href="https://www.imsei.ncsu.edu/" target="_blank"><img class="right_img proj_right scale"
+							src="images/hunt-snow-3840x2160.jpg" ALIGN="right" width="35%" height="auto"
+							alt="" /></a><br>
 					<h3>North Carolina State University</h3>
 					<h4>Master's in Integrated Manufacturing Systems Engineering</h4>
 					<h4 style="color:grey">Minor: Industrial Engineering</h4>
@@ -290,7 +368,8 @@
 						Conversion &nbsp;&bull;&nbsp; Numeric & Scientific Computing &nbsp;&bull;&nbsp; Mechatronics
 						&nbsp;&bull;&nbsp; Operations Research &nbsp;&bull;&nbsp; Automobile Engineering
 						&nbsp;&bull;&nbsp; Machine Design &nbsp;&bull;&nbsp; Machine Dynamics &nbsp;&bull;&nbsp;
-						Industrial Engineering &nbsp;&bull;&nbsp; Mechanical Vibrations &nbsp;&bull;&nbsp; Ergonomics &nbsp;&bull;&nbsp; Renewable Energy</p>
+						Industrial Engineering &nbsp;&bull;&nbsp; Mechanical Vibrations &nbsp;&bull;&nbsp; Ergonomics
+						&nbsp;&bull;&nbsp; Renewable Energy</p>
 
 
 				</div>
@@ -378,6 +457,7 @@
 	</article>
 
 	<!-- Scripts -->
+	
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
@@ -385,7 +465,33 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/navbarmobil.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
 
+				$(window).on("resize", function(){
+					var temp = $(window).width();
+					if(temp <= 736){
+						$("#yash1").removeClass("col-4");
+						$("#yash2").removeClass("col-8");
+					}
+					else if(temp >736){
+						$("#yash1").addClass("col-4");
+						$("#yash2").addClass("col-8");
+					}
+				});
+			});
+		</script>
 </body>
 
 </html>

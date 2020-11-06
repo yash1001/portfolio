@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		padding-top: 3.5em;
+		padding-top: 0px;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2148,8 +2148,8 @@ input, select, textarea {
 	}
 
 		.top .image {
-			border-radius: 100%;
-			width: 20em;
+			border-radius: 20%;
+			width: auto;
 			height: 20em;
 			margin: 0;
 		}
@@ -2255,7 +2255,7 @@ input, select, textarea {
 			}
 
 				.top .image {
-					width: 24em;
+					width: auto;
 					height: 24em;
 					margin: 0;
 				}
@@ -2453,7 +2453,7 @@ input, select, textarea {
 			}
 
 				.top .image {
-					width: 15em;
+					width: auto;
 					height: 15em;
 					margin-bottom: 0;
 				}
