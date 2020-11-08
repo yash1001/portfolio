@@ -145,7 +145,7 @@
   background-color: rgb(245, 245, 245);
   text-decoration: black;
   font-weight: bold;
-  margin: 0% 0 4% 0;
+  /* margin: 0% 0 4% 0; */
   padding-left: 1em;
   padding-top: 0%;
   }
@@ -239,123 +239,6 @@
     .dev-icons {
       font-size: 3rem;
     }
-    
-
-    .wrapd {
-      background-image: url("images/");
-      box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.1), 0px 10px 5px 0px rgba(0, 0, 0, 0.1);
-      padding: 8em 0 8em 0;
-      margin-left: 3%;
-      text-align: center;
-    }
-  
-      .wrapd.style1 {
-        background-image: none;
-        background-color: #fff;
-      }
-  
-      .wrapd.style2 {
-        background-color: #fafafa;
-        text-shadow: 1px 1px 0px #fff;
-      }
-  
-      .wrapd.style3 {
-        background-color: #f4f4f4;
-        text-shadow: 1px 1px 0px #fff;
-      }
-  
-      .wrapd.style4 {
-        background-color: #303030;
-        color: #999;
-        text-shadow: -1px -1px 0px #181818;
-      }
-      
-  
-        .wrapd.style4 h1, .wrapd.style4 h2, .wrapd.style4 h3, .wrapd.style4 h4, .wrapd.style4 h5, .wrapd.style4 h6 {
-          color: #fff;
-        }
-  
-        .wrapd.style4 form input[type=text],
-        .wrapd.style4 form input[type=password],
-        .wrapd.style4 form select,
-        .wrapd.style4 form textarea {
-          border: none;
-          background: #282828;
-        }
-  
-          .wrapd.style4 form input[type=text]:focus,
-          .wrapd.style4 form input[type=password]:focus,
-          .wrapd.style4 form select:focus,
-          .wrapd.style4 form textarea:focus {
-            background: #252525;
-          }
-  
-  
-      .wrapd.style5 {
-        background-color: #303030;
-        color: #999;
-        text-shadow: -1px -1px 0px #181818;
-      }
-      
-  
-        .wrapd.style5 h1, .wrapd.style5 h2, .wrapd.style5 h3, .wrapd.style5 h4, .wrapd.style5 h5, .wrapd.style5 h6 {
-          color: #fff;
-        }
-  
-        .wrapd.style5 form input[type=text],
-        .wrapd.style5 form input[type=password],
-        .wrapd.style5 form select,
-        .wrapd.style5 form textarea {
-          border: none;
-          background: #282828;
-        }
-  
-          .wrapd.style5 form input[type=text]:focus,
-          .wrapd.style5 form input[type=password]:focus,
-          .wrapd.style5 form select:focus,
-          .wrapd.style5 form textarea:focus {
-            background: #252525;
-          }
-
-  /* Large */
-
-	@media screen and (max-width: 1280px) {
-
-		/* Basic */
-
-			body {
-				font-size: 11pt;
-			}
-
-			input, textarea, select {
-				font-size: 11pt;
-			}
-
-			header {
-				margin: 0 0 4em 0;
-			}
-
-		/* Wrappers */
-
-			.wrapper {
-				padding: 5em 0 5em 0;
-				/* text-align: center; */
-			}
-
-				.wrapper.style4 .row-special {
-					margin: 2em 0 0 0;
-					padding: 2em 0 2em 0;
-				}
-
-				.wrapper.style5 .row-special {
-					margin: 0 0 0 0;
-					padding: 0 0 0 0;
-        }
-        
-
-    /* Wrappers */
-
-			.wrapper {
-				padding: 0em;
-        /* text-align: center; */}
-      }
+#linehe{
+  line-height: 4;
+}

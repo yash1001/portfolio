@@ -2425,7 +2425,8 @@ input, select, textarea {
 		/* Wrappers */
 
 			.wrapper {
-				padding: 3em;
+				padding: 4em 0em 4em 0em;
+				
 				/* text-align: center; */
 			}
 
