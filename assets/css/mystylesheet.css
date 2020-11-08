@@ -245,8 +245,8 @@
       background-image: url("images/");
       box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.1), 0px 10px 5px 0px rgba(0, 0, 0, 0.1);
       padding: 8em 0 8em 0;
-      margin-left: 25px;
-      /* text-align: center; */
+      margin-left: 3%;
+      text-align: center;
     }
   
       .wrapd.style1 {
@@ -316,3 +316,46 @@
           .wrapd.style5 form textarea:focus {
             background: #252525;
           }
+
+  /* Large */
+
+	@media screen and (max-width: 1280px) {
+
+		/* Basic */
+
+			body {
+				font-size: 11pt;
+			}
+
+			input, textarea, select {
+				font-size: 11pt;
+			}
+
+			header {
+				margin: 0 0 4em 0;
+			}
+
+		/* Wrappers */
+
+			.wrapper {
+				padding: 5em 0 5em 0;
+				/* text-align: center; */
+			}
+
+				.wrapper.style4 .row-special {
+					margin: 2em 0 0 0;
+					padding: 2em 0 2em 0;
+				}
+
+				.wrapper.style5 .row-special {
+					margin: 0 0 0 0;
+					padding: 0 0 0 0;
+        }
+        
+
+    /* Wrappers */
+
+			.wrapper {
+				padding: 0em;
+				/* text-align: center; */
+			}

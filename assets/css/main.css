@@ -2000,6 +2000,7 @@ input, select, textarea {
 		background-image: url("images/");
 		box-shadow: inset 0px 20px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
+		;
 		/* text-align: center; */
 	}
 
