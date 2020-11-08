@@ -11,68 +11,50 @@
     <title>Yash's Work Experience</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/mystylesheet.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/navbarmobil.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
 </head>
 
-<body class="is-preload" style="padding: 0;">
+<body class="is-preload">
 
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-
-
-    <!-- <div class="topnav container" id="myTopnav">
-		<a href="#top" class="active">Home</a>
-		<a href="#work">Work Experience</a>
-		<a href="#academic">Academic Experience</a>
-		<a href="#projects">Academic Projects</a>
-		<a href="#education">Education</a>
-		<a href="#about">About Me</a>
-		<a href="#skills">Skills</a>
-		<a href="#contact">Contact Me</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars"></i>
-		</a>
-	</div> -->
-
-    <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Yash Chaturvedi</a>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
-        <span style="border: none;" class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation"></span>
-        <!-- </button> -->
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Intro <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="workex.html">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
+    <header id="header">
+        <h1><a href="index.html">Yash Chaturvedi</a></h1>
+        <nav class="links">
+            <ul>
+                <li><a href="index.html#top">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li  class="active"><a href="workex.html">Work Experience</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <nav class="main">
+            <ul>
+                <li class="menu">
+                    <a class="fa-bars" href="#menu">Menu</a>
                 </li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
+    <!-- Menu -->
+    <section id="menu">
+        <!-- Links -->
+        <section>
+            <ul class="links">
+                <li class="active"><a href="index.html#about" style="color: white; text-decoration: none;">ABOUT ME</a>
+                </li>
+                <li><a href="projects.html" style="color: white; text-decoration: none;">PROJECTS</a></li>
+                <li><a href="workex.html" style="color: white; text-decoration: none;">WORK EXPERIENCE</a></li>
+                <li><a href="index.html#skills" style="color: white; text-decoration: none;">SKILLS</a></li>
+                <li><a href="index.html#contact" style="color: white; text-decoration: none;">CONTACT ME</a></li>
+            </ul>
+        </section>
+    </section>
+
+
+
 
     <!-- Experience -->
     <article id="work" class="wrapper style1" style="padding-bottom: 1px;">
@@ -278,46 +260,6 @@
             </div>
         </div>
     </article>
-
-
-
-
-    <!-- Work
-			<article id="work" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-comment-alt"></span>
-								<h3>Consequat lorem</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
-								<h3>Lorem dolor tempus</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Feugiat posuere</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-					</footer>
-				</div>
-			</article> -->
 
 
 
