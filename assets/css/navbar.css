@@ -39,6 +39,13 @@
         line-height: inherit;
         padding: 0 0 0 1.5em;
         white-space: nowrap;
+        border-bottom: 0;
+        font-family: "Raleway", Helvetica, sans-serif;
+        font-size: 1.7em;
+        font-weight: 400;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: white;
     }
 
         #header h1 a {
@@ -259,12 +266,12 @@
 						-webkit-transition: color 0.2s ease;
 						-ms-transition: color 0.2s ease;
 						transition: color 0.2s ease;
-						font-size: 0.7em;
+                        font-size: 0.7em;
 					}
 
 					#menu .links > li a p {
 						font-family: "Raleway", Helvetica, sans-serif;
-						font-size: 0.6em;
+						font-size: 0.7em;
 						font-weight: 400;
 						letter-spacing: 0.25em;
 						margin-bottom: 0;
