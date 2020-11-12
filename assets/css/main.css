@@ -1921,10 +1921,11 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		background: rgb(255, 255, 255);
+		/* box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1); */
 		text-align: center;
-		padding: 2em;
+		padding: 0.5em;
+		border-radius: 25%;
 	}
 
 		.box.style1 {
@@ -2390,7 +2391,7 @@ input, select, textarea {
 		/* Box */
 
 			.box {
-				padding: 30px 20px 30px 20px;
+				padding: 0.5rem;
 				margin: 0 0 20px 0 !important;
 			}
 

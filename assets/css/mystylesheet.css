@@ -260,3 +260,27 @@
   opacity: 0.3;
   filter: alpha(opacity=30)
 }
+
+.skill-icons .skill-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  width: 6rem;
+  background-color: #ffffff;
+  color: #fff;
+  border-radius: 25%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
+.skill-icons .skill-icon:last-child {
+  margin-right: 0;
+}
+.skill-icons .skill-icon:hover {
+  background-color: #c4baba;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
